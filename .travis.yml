@@ -11,8 +11,7 @@ cache:
   - node_modules
 install:
 - bash deps.sh
-- curl -L https://github.com/jgm/pandoc/releases/download/2.7.2/pandoc-2.7.2-1-amd64.deb
-  > /tmp/pandoc.deb
+- curl -L https://github.com/jgm/pandoc/releases/download/2.7.2/pandoc-2.7.2-1-amd64.deb > /tmp/pandoc.deb
 - sudo dpkg -i /tmp/pandoc.deb
 - pandoc --version
 - curl -o- -L https://yarnpkg.com/install.sh | bash
