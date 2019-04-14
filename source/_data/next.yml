@@ -1,0 +1,39 @@
+scheme: Gemini
+
+motion:
+  enable: false
+
+custom_file_path:
+  head: source/_data/head.swig
+
+social:
+  GitHub: https://github.com/haowen-xu || github
+
+avatar:
+  url: /images/avatar.jpg
+
+related_posts:
+  enable: true
+
+math:
+  enable: true
+  per_page: true
+  engine: mathjax
+  mathjax:
+    cdn: //cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML
+
+local_search:
+  enable: true
+
+pdf:
+  enable: true
+  pdfobject:
+    cdn: //cdnjs.cloudflare.com/ajax/libs/pdfobject/2.1.1/pdfobject.min.js
+
+fontawesome: //cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.2/css/font-awesome.min.css
+
+pace: true
+
+fancybox: true
+
+lazyload: false
